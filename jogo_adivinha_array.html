@@ -1,0 +1,48 @@
+<meta charset="UTF-8">
+
+<input>
+
+<button>Insira seu palpite!</button>
+
+<script>
+
+	var numeros = [5,7,10,2];
+	
+	var input = document.querySelector("input");
+	input.focus();
+
+
+	function verifica(){
+
+		var achou = false;
+
+		for(var posicao = 0; posicao < numeros.length; posicao++){
+			
+			if(input.value == numeros[posicao]) {
+
+			alert("Você acertou!");
+			achou = true;
+			break;
+			}
+
+		}
+
+		if(achou == false){
+
+			alert("Você errou!");
+
+		}
+
+		input.value = " ";
+		input.focus();
+	}
+
+	var button = document.querySelector("button");
+
+	button.onclick = verifica;	
+
+</script>
+
+
+
+
