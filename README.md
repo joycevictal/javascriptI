@@ -1,6 +1,6 @@
 # JavaScript 
 
-Atiidades desenvolvidas no curso de JavaScript do Alura.
+Atividades desenvolvidas no curso de JavaScript do Alura.
 
 **Objetivos :** 
 
